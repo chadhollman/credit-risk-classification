@@ -1,0 +1,27 @@
+Credit Risk Analysis Report
+
+The purpose of this analysis is to assess the performance of machine learning models in predicting credit risk for loans. This analysis evaluates the models’ ability to classify loans as either "Healthy Loan" or "High Risk Loan" using metrics such as accuracy, precision, recall, and F1-score.
+
+Results
+
+Accuracy: The overall accuracy of the model is 99%, indicating that it correctly classified 99% of the loans in the dataset.
+
+Precision:
+
+Healthy Loan: 1.00 (Perfect precision, no false positives for this class).
+
+High Risk Loan: 0.85 (The model occasionally misclassifies healthy loans as high risk).
+
+Recall:
+
+Healthy Loan: 0.99 (The model was nearly perfect in indentifying healthy loans).
+
+High Risk Loan: 0.92 (Most high-risk loans are correctly identified, with some room for improvement).
+
+F1-Score:
+
+Healthy Loan: 1.00 (Balances perfect precision and recall).
+
+High Risk Loan: 0.88 (Reflects good but not perfect balance between precision and recall).
+
+The machine learning model performs exceptionally well overall, with nearly perfect classification for healthy loans. However, for high risk loans, while the recall is high at 92%, the precision of 85% indicates room for improvement in minimizing false positives.
